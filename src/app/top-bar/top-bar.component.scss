@@ -1,0 +1,19 @@
+/* Top Bar */
+@import "../../sass/variables";
+
+:host {
+  width: 100%;
+  height: 54px;
+  margin: 0 0 12px 0;
+  background-color: $header-color;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    color: white;
+    margin: 0;
+  }
+}
