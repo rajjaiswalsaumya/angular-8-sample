@@ -1,1 +1,6 @@
-$header-color: green;
+@import "./colors";
+
+$primary-color: $green;
+$secondary-color: $snow-white;
+$accent-color: $black;
+
